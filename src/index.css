@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.orders-header {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  background-color: blue;
+  border-color: blue;
+}
+
+.btn-primary:hover {
+  background-color: darkblue;
+  border-color: darkblue;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: blue;
+  border-color: blue;
+  box-shadow: none;
+}
+
+.custom-button {
+  /* Add your custom styles here */
+  /* For example, increase font size */
+  font-size: 20px;
+}
+
+.card-header {
+  border: 1px solid grey;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
